@@ -1,5 +1,5 @@
-vars 
-| --- welcomeJob.groovy
-def call(String name = 'User') {
- echo "Welcome, ${name}."
+#!/usr/bin/env groovy
+
+def call(String name = 'human') {
+    echo "Hello, ${name}."
 }
